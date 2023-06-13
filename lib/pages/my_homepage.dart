@@ -1,3 +1,4 @@
+import 'package:first_app/pages/widgets/drwar.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -14,7 +15,7 @@ class HomePage extends StatelessWidget {
           child: Text("chaman do $days hard $name work"),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
